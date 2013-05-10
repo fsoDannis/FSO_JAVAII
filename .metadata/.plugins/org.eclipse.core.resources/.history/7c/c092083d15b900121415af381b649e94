@@ -47,7 +47,7 @@ public class MainActivity extends Activity {
 		addListenerOnButton();
 	}
 	
-//Button Listener to Call out to the web
+
 	private void addListenerOnButton() {
 		 
 		button2 = (Button) findViewById(R.id.buttonSearch);
@@ -67,7 +67,7 @@ public class MainActivity extends Activity {
 		
 	}
 
-	//Button Listener to go get the info and pass it on
+
 	public class ButtonClickHandler implements View.OnClickListener {
 		public void onClick(View view) {
 			if (nameEditCtrl != null && nameEditCtrl.getText().length() != 0) {

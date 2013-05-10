@@ -19,8 +19,8 @@ import android.widget.EditText;
 import android.widget.TextView;
 
 public class SubScreen extends Activity {
+	TextView greetMsg;
 	
-	TextView findTeam;
 	EditText nameEditCtrl2;
 	Button btnCtlr2;
 	String name2;
@@ -30,17 +30,16 @@ public class SubScreen extends Activity {
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_subscreen);
-		findTeam = (TextView) findViewById(R.id.textView1);
+		greetMsg = (TextView) findViewById(R.id.textView1);
 		Intent intename = getIntent();
 		String uname = (String) intename.getSerializableExtra("USERNAME");
-		findTeam.setText("You Selected: " + uname);
+		greetMsg.setText("You Selected: " + uname);
 		
 		nameEditCtrl2 = (EditText) findViewById(R.id.editText2);
 		btnCtlr2 = (Button) findViewById(R.id.button2);
 		btnCtlr2.setOnClickListener(new ButtonClickHandler());
 	}
 
-	//Passing the info back to the first activity
 	public class ButtonClickHandler implements View.OnClickListener {
 		public void onClick(View view) {
 			if (nameEditCtrl2 != null && nameEditCtrl2.getText().length() != 0) {

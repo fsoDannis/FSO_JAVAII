@@ -40,7 +40,6 @@ public class SubScreen extends Activity {
 		btnCtlr2.setOnClickListener(new ButtonClickHandler());
 	}
 
-	//Passing the info back to the first activity
 	public class ButtonClickHandler implements View.OnClickListener {
 		public void onClick(View view) {
 			if (nameEditCtrl2 != null && nameEditCtrl2.getText().length() != 0) {
