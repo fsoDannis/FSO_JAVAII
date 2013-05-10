@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;JavaII_Week1/res/layout/activity_subScreen.xml&apos; to &apos;activity_subscreen.xml&apos;" description="Rename resource &apos;activity_subScreen.xml&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="res/layout/activity_subScreen.xml" name="activity_subscreen.xml" stamp="1368061509986" updateReferences="true"/>
+</session>

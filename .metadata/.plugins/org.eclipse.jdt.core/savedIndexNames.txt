@@ -1,0 +1,4 @@
+INDEX VERSION 1.126+/Users/Dannis/Documents/FSO_JAVAII/.metadata/.plugins/org.eclipse.jdt.core
+3086972884.index
+1452214617.index
+1705136682.index
