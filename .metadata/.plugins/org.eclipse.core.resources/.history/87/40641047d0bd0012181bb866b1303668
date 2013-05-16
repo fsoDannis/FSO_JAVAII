@@ -38,18 +38,30 @@ public class MainActivity extends Activity {
 		btnCtlr.setOnClickListener(new ButtonClickHandler());
 
 		addListenerOnButton();
-		getSubScreenInfo();
+		startSubScreenActivity();
 	}
 
 	// Pulling out code that is not UI Specific for fragments set up
-	private void getSubScreenInfo() {
-			//This gets the message from the subScreen and gets it's text into the textview
+	private void startSubScreenActivity() {
 			Intent intename = getIntent();
 			String uname = (String) intename.getSerializableExtra("MESSAGEBACK");
 			backMsg.setText(uname);
 	}
 
-	//Takes info entered in the edit box and stores the info to be picked up elsewhere. 
+	//Button Listener to Call out to the web
+	private void addListenerOnButton() {
+		button2 = (Button) findViewById(R.id.buttonSearch);
+		button2.setOnClickListener(new OnClickListener() {
+			@Override
+			public void onClick(View arg0) {
+				Intent browserIntent = 
+						new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.mlb.com"));
+				startActivity(browserIntent);
+			}
+		});
+	}
+
+	//Button Listener to go get the info and pass it on
 	public class ButtonClickHandler implements View.OnClickListener {
 		public void onClick(View view) {
 			if (nameEditCtrl != null && nameEditCtrl.getText().length() != 0) {
@@ -62,19 +74,6 @@ public class MainActivity extends Activity {
 			intObj.putExtra("USERNAME", name);
 			startActivity(intObj);
 		}		
-	}
-	
-	//This function tells the button to call out to the web with the given URL
-	private void addListenerOnButton() {
-		button2 = (Button) findViewById(R.id.buttonSearch);
-		button2.setOnClickListener(new OnClickListener() {
-			@Override
-			public void onClick(View arg0) {
-				Intent browserIntent = 
-						new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.mlb.com"));
-				startActivity(browserIntent);
-			}
-		});
 	}
 }
 

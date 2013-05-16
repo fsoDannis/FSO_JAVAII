@@ -30,23 +30,16 @@ public class SubScreen extends Activity {
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_subscreen);
-		
 		findTeam = (TextView) findViewById(R.id.textView1);
+		Intent intename = getIntent();
+		String uname = (String) intename.getSerializableExtra("USERNAME");
+		findTeam.setText("You Selected: " + uname);
 		
 		nameEditCtrl2 = (EditText) findViewById(R.id.editText2);
 		btnCtlr2 = (Button) findViewById(R.id.button2);
 		btnCtlr2.setOnClickListener(new ButtonClickHandler());
-		
-		getMainActivityInfo();
 	}
 
-	
-	private void getMainActivityInfo() {
-		Intent intename = getIntent();
-		String uname = (String) intename.getSerializableExtra("USERNAME");
-		findTeam.setText("You Selected: " + uname);
-	}
-	
 	//Sending the Entered Text to the First Screen
 	public class ButtonClickHandler implements View.OnClickListener {
 		public void onClick(View view) {
