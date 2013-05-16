@@ -47,12 +47,12 @@ public class MainActivity extends Activity {
 	}
 
 	// Pulling out code that is not UI Specific for fragments set up
-//	private void getSubScreenInfo() {
-//			//This gets the message from the subScreen and gets it's text into the textview
-//			Intent intename = getIntent();
-//			String uname = (String) intename.getSerializableExtra("MESSAGEBACK");
-//			//backMsg.setText(uname);
-//	}
+	private void getSubScreenInfo() {
+			//This gets the message from the subScreen and gets it's text into the textview
+			Intent intename = getIntent();
+			String uname = (String) intename.getSerializableExtra("MESSAGEBACK");
+			//backMsg.setText(uname);
+	}
 
 //	//Takes info entered in the edit box and stores the info to be picked up elsewhere. 
 //	public class ButtonClickHandler implements View.OnClickListener {
