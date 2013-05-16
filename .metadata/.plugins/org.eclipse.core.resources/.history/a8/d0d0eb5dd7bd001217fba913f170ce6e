@@ -1,5 +1,6 @@
 package com.dannis.javaii_week1;
 
+import com.dannis.javaii_week1.MainActivity.ButtonClickHandler;
 
 import android.app.Activity;
 import android.app.Fragment;
@@ -36,17 +37,16 @@ public class MainActivityFragmentNew extends Fragment implements OnClickListener
 		// TODO Auto-generated method stub
 		
 		View view = inflater.inflate(R.layout.mainnew, container);
-		
+		return view;
 		
 		backMsg = (TextView) view.findViewById(R.id.textView3);
 		nameEditCtrl = (EditText) view.findViewById(R.id.editText1);
 		btnCtlr = (Button) view.findViewById(R.id.button1);
-		
-	//	btnCtlr.setOnClickListener(new ButtonClickHandler());
+		btnCtlr.setOnClickListener(new ButtonClickHandler());
 
 		//addListenerOnButton();
 		//getSubScreenInfo();
-		return view;
+		
 	}
 
 	@Override
@@ -65,3 +65,5 @@ public class MainActivityFragmentNew extends Fragment implements OnClickListener
 		
 	}
 
+
+}

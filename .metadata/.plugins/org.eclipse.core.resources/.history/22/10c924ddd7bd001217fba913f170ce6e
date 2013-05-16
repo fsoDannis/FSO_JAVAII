@@ -42,7 +42,7 @@ public class MainActivityFragmentNew extends Fragment implements OnClickListener
 		nameEditCtrl = (EditText) view.findViewById(R.id.editText1);
 		btnCtlr = (Button) view.findViewById(R.id.button1);
 		
-	//	btnCtlr.setOnClickListener(new ButtonClickHandler());
+		//btnCtlr.setOnClickListener(new ButtonClickHandler());
 
 		//addListenerOnButton();
 		//getSubScreenInfo();
