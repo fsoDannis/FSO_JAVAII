@@ -36,26 +36,22 @@ public class MainActivity extends Activity {
 		setContentView(R.layout.activity_main);
 		
 		backMsg = (TextView) findViewById(R.id.textView3);
+		Intent intename = getIntent();
+		String uname = (String) intename.getSerializableExtra("MESSAGEBACK");
+		backMsg.setText(uname);
+		//
 		nameEditCtrl = (EditText) findViewById(R.id.editText1);
 		btnCtlr = (Button) findViewById(R.id.button1);
 		btnCtlr.setOnClickListener(new ButtonClickHandler());
 		
 		addListenerOnButton();
-		startSubScreenActivity();
 	}
 	
-	// Pulling out code that is not UI Specific for fragments set up
-private void startSubScreenActivity() {
-	Intent intename = getIntent();
-	String uname = (String) intename.getSerializableExtra("MESSAGEBACK");
-	backMsg.setText(uname);
-		
-	}
-
 //Button Listener to Call out to the web
 	private void addListenerOnButton() {
 		 
 		button2 = (Button) findViewById(R.id.buttonSearch);
+ 
 		button2.setOnClickListener(new OnClickListener() {
  
 			@Override
@@ -84,7 +80,8 @@ private void startSubScreenActivity() {
 			intObj.putExtra("USERNAME", name);
 			startActivity(intObj);
 			
-		}		
+		}
+
 	}
 }
 
