@@ -20,30 +20,25 @@ import android.widget.TextView;
 import android.view.View.OnClickListener;
 
 public class MainActivity extends Activity {
-//////////////////Moving out of here to the Fragment View \\\\\\\\\\\\\\\\\\\\\\\
-//	EditText nameEditCtrl;
-//	Button btnCtlr;
-//	String name;
-//	ImageView image;
-//	Button button2;
-//	TextView backMsg;
-/////////////////////////////////////////////////////////////////////////////////
+	EditText nameEditCtrl;
+	Button btnCtlr;
+	String name;
+	ImageView image;
+	Button button2;
+	TextView backMsg;
 
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.mainnew);
-		
-////////////////// Moving out of here to the Fragment View \\\\\\\\\\\\\\\\\\\\\\\
-//backMsg = (TextView) findViewById(R.id.textView3);
-//nameEditCtrl = (EditText) findViewById(R.id.editText1);
-//btnCtlr = (Button) findViewById(R.id.button1);
-//btnCtlr.setOnClickListener(new ButtonClickHandler());
-//									
-//addListenerOnButton();
-//getSubScreenInfo(); 
-/////////////////////////////////////////////////////////////////////////////////
-		
+		setContentView(R.layout.activity_main);
+
+		backMsg = (TextView) findViewById(R.id.textView3);
+		nameEditCtrl = (EditText) findViewById(R.id.editText1);
+		btnCtlr = (Button) findViewById(R.id.button1);
+		btnCtlr.setOnClickListener(new ButtonClickHandler());
+
+		addListenerOnButton();
+		getSubScreenInfo();
 	}
 
 	// Pulling out code that is not UI Specific for fragments set up
