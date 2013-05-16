@@ -1,0 +1,7 @@
+package com.dannis.javaii_week1;
+
+import android.app.Fragment;
+
+public class MainActivityFragmentNew extends Fragment {
+
+}

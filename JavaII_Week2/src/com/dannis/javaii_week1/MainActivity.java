@@ -1,9 +1,9 @@
 /* 
- * Project JavaII_Week1
- * Package com.dannis.javaii_week1
+ * Project JavaII_Week2
+ * Package com.dannis.javaii_week2
  * 
  * @Author Dan Annis
- * Date    May 7, 2013
+ * Date    May 15, 2013
  */
 package com.dannis.javaii_week1;
 

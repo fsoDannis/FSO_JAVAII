@@ -1,0 +1,14 @@
+package com.dannis.javaii_week1;
+
+import android.app.Fragment;
+import android.app.Activity;
+import android.os.Bundle;
+import android.view.View;
+import android.os.Bundle;
+import android.view.LayoutInflator;
+import android.view.ViewGroup;
+
+
+public class MainActivityFragment extends Fragment {
+
+}
