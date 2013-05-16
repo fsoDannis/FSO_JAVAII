@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="17" version="2.0">
+<workbench progressCount="26" version="2.0">
 <workbenchAdvisor/>
-<window height="768" width="1024" x="223" y="71">
+<window height="768" width="1024" x="415" y="25">
 <fastViewData fastViewLocation="1024"/>
 <perspectiveBar>
 <itemSize x="250"/>
@@ -42,20 +42,21 @@
 <part id="3"/>
 <part id="4"/>
 <part id="5"/>
+<part id="6"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
 <editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MainActivity.java" partName="MainActivity.java" path="/Users/Dannis/Documents/FSO_JAVAII/JavaII_Week1/src/com/dannis/javaii_week1/MainActivity.java" title="MainActivity.java" tooltip="JavaII_Week1/src/com/dannis/javaii_week1/MainActivity.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/JavaII_Week1/src/com/dannis/javaii_week1/MainActivity.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="900" selectionTopPixel="285"/>
+<editorState selectionHorizontalPixel="132" selectionLength="0" selectionOffset="1657" selectionTopPixel="520"/>
 </editor>
 <editor id="com.android.ide.eclipse.editors.CommonXmlEditor" name="activity_main.xml" partName="activity_main.xml" path="/Users/Dannis/Documents/FSO_JAVAII/JavaII_Week1/res/layout/activity_main.xml" title="activity_main.xml" tooltip="JavaII_Week1/res/layout/activity_main.xml" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/JavaII_Week1/res/layout/activity_main.xml"/>
 </editor>
 <editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SubScreen.java" partName="SubScreen.java" path="/Users/Dannis/Documents/FSO_JAVAII/JavaII_Week1/src/com/dannis/javaii_week1/SubScreen.java" title="SubScreen.java" tooltip="JavaII_Week1/src/com/dannis/javaii_week1/SubScreen.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/JavaII_Week1/src/com/dannis/javaii_week1/SubScreen.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="714" selectionTopPixel="112"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1277" selectionTopPixel="133"/>
 </editor>
 <editor id="com.android.ide.eclipse.editors.CommonXmlEditor" name="strings.xml" partName="strings.xml" path="/Users/Dannis/Documents/FSO_JAVAII/JavaII_Week1/res/values/strings.xml" title="strings.xml" tooltip="JavaII_Week1/res/values/strings.xml" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/JavaII_Week1/res/values/strings.xml"/>
@@ -66,6 +67,9 @@
 </editor>
 <editor id="com.android.ide.eclipse.editors.manifest.ManifestEditor" name="AndroidManifest.xml" partName="JavaII_Week1 Manifest" path="/Users/Dannis/Documents/FSO_JAVAII/JavaII_Week1/AndroidManifest.xml" title="JavaII_Week1 Manifest" tooltip="JavaII_Week1/AndroidManifest.xml" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/JavaII_Week1/AndroidManifest.xml"/>
+</editor>
+<editor id="com.android.ide.eclipse.editors.CommonXmlEditor" name="activity_subscreen.xml" partName="activity_subscreen.xml" path="/Users/Dannis/Documents/FSO_JAVAII/JavaII_Week1/res/layout/activity_subscreen.xml" title="activity_subscreen.xml" tooltip="JavaII_Week1/res/layout/activity_subscreen.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/JavaII_Week1/res/layout/activity_subscreen.xml"/>
 </editor>
 </editors>
 <views>
@@ -89,10 +93,10 @@
 <view id="org.eclipse.ui.views.ContentOutline" partName="Outline">
 <viewState/>
 </view>
-<view id="com.android.ide.eclipse.ddms.views.HeapView" partName="Heap"/>
 <view id="org.eclipse.ui.navigator.ProjectExplorer" partName="Project Explorer">
 <viewState CommonNavigator.LINKING_ENABLED="0" org.eclipse.cdt.ui.cview.groupincludes="false" org.eclipse.cdt.ui.cview.groupmacros="false" org.eclipse.cdt.ui.editor.CUChildren="true" org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets="0"/>
 </view>
+<view id="com.android.ide.eclipse.ddms.views.HeapView" partName="Heap"/>
 <view id="com.android.ide.eclipse.ddms.views.LogCatView" partName="LogCat">
 <viewState/>
 </view>
@@ -101,7 +105,7 @@
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
 <expanded>
-<category IMemento.internal.id="Errors (4 items)"/>
+<category IMemento.internal.id="Warnings (17 items)"/>
 </expanded>
 <columnWidths org.eclipse.ui.ide.locationField="90" org.eclipse.ui.ide.markerType="90" org.eclipse.ui.ide.pathField="120" org.eclipse.ui.ide.resourceField="90" org.eclipse.ui.ide.severityAndDescriptionField="300"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
@@ -123,7 +127,7 @@
 <viewState/>
 </view>
 </views>
-<perspectives activePart="org.eclipse.ui.navigator.ProjectExplorer" activePerspective="org.eclipse.jdt.ui.JavaPerspective">
+<perspectives activePart="org.eclipse.jdt.ui.CompilationUnitEditor" activePerspective="org.eclipse.jdt.ui.JavaPerspective">
 <perspective editorAreaTrimState="2" editorAreaVisible="0" fixed="0" version="0.016">
 <descriptor class="com.android.ide.eclipse.ddms.Perspective" id="com.android.ide.eclipse.ddms.Perspective" label="DDMS"/>
 <alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
@@ -378,29 +382,20 @@
 <view id="org.eclipse.ui.views.ContentOutline"/>
 <view id="com.android.ide.eclipse.ddms.views.LogCatView"/>
 <fastViewBars/>
-<layout>
-<mainWindow>
-<info folder="true" part="org.eclipse.debug.internal.ui.NavigatorFolderView">
-<folder activePageID="org.eclipse.debug.ui.DebugView" appearance="2" expanded="2">
-<page content="org.eclipse.debug.ui.DebugView" label="Debug"/>
+<layout>&#x0A;<mainWindow>&#x0A;<info folder="true" part="org.eclipse.debug.internal.ui.NavigatorFolderView">&#x0A;<folder activePageID="org.eclipse.debug.ui.DebugView" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.debug.ui.DebugView" label="Debug"/>
 <page content="org.eclipse.ui.views.ResourceNavigator" label="LabelNotFound"/>
 <page content="org.eclipse.jdt.ui.PackageExplorer" label="LabelNotFound"/>
 <page content="org.eclipse.jdt.ui.TypeHierarchy" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
 </presentation>
 </folder>
 </info>
-<info folder="true" part="stickyFolderRight" ratio="0.75" ratioLeft="762" ratioRight="254" relationship="2" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">
-<folder appearance="2" expanded="2">
-<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<info folder="true" part="stickyFolderRight" ratio="0.75" ratioLeft="762" ratioRight="254" relationship="2" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
 <page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.debug.internal.ui.ConsoleFolderView" ratio="0.74886537" ratioLeft="495" ratioRight="166" relationship="4" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">
-<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
-<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
+<info folder="true" part="org.eclipse.debug.internal.ui.ConsoleFolderView" ratio="0.74886537" ratioLeft="495" ratioRight="166" relationship="4" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">&#x0A;<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
 <page content="org.eclipse.ui.views.TaskList" label="Tasks"/>
 <page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
 <page content="org.eclipse.cdt.debug.ui.executablesView" label="Executables"/>
@@ -408,44 +403,34 @@
 <page content="org.eclipse.ui.views.PropertySheet" label="LabelNotFound"/>
 <page content="org.eclipse.jdt.debug.ui.DisplayView" label="LabelNotFound"/>
 <page content="org.eclipse.search.SearchResultView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
 <part id="1"/>
 <part id="2"/>
 <part id="3"/>
 </presentation>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@458087ac" ratio="0.5" ratioLeft="508" ratioRight="508" relationship="2" relative="org.eclipse.debug.internal.ui.ConsoleFolderView">
-<folder activePageID="com.android.ide.eclipse.ddms.views.LogCatView" appearance="2" expanded="2">
-<page content="com.android.ide.eclipse.ddms.views.LogCatView" label="LogCat"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@458087ac" ratio="0.5" ratioLeft="508" ratioRight="508" relationship="2" relative="org.eclipse.debug.internal.ui.ConsoleFolderView">&#x0A;<folder activePageID="com.android.ide.eclipse.ddms.views.LogCatView" appearance="2" expanded="2">&#x0A;<page content="com.android.ide.eclipse.ddms.views.LogCatView" label="LogCat"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
 </presentation>
 </folder>
 </info>
 <info part="org.eclipse.ui.editorss" ratio="0.44848484" ratioLeft="222" ratioRight="273" relationship="4" relative="org.eclipse.debug.internal.ui.NavigatorFolderView"/>
-<info folder="true" part="org.eclipse.debug.internal.ui.OutlineFolderView" ratio="0.75" ratioLeft="762" ratioRight="254" relationship="2" relative="org.eclipse.ui.editorss">
-<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">
-<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
+<info folder="true" part="org.eclipse.debug.internal.ui.OutlineFolderView" ratio="0.75" ratioLeft="762" ratioRight="254" relationship="2" relative="org.eclipse.ui.editorss">&#x0A;<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
 <page content="org.eclipse.ant.ui.views.AntView" label="LabelNotFound"/>
 <page content="org.eclipse.cdt.dsf.gdb.ui.tracecontrol.view" label="LabelNotFound"/>
 <page content="org.eclipse.cdt.dsf.debug.ui.disassembly.view" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
 </presentation>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.debug.internal.ui.ToolsFolderView" ratio="0.5" ratioLeft="508" ratioRight="508" relationship="2" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">
-<folder activePageID="org.eclipse.debug.ui.VariableView" appearance="2" expanded="2">
-<page content="org.eclipse.debug.ui.VariableView" label="Variables"/>
+<info folder="true" part="org.eclipse.debug.internal.ui.ToolsFolderView" ratio="0.5" ratioLeft="508" ratioRight="508" relationship="2" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">&#x0A;<folder activePageID="org.eclipse.debug.ui.VariableView" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.debug.ui.VariableView" label="Variables"/>
 <page content="org.eclipse.debug.ui.BreakpointView" label="Breakpoints"/>
 <page content="org.eclipse.debug.ui.ExpressionView" label="LabelNotFound"/>
 <page content="org.eclipse.debug.ui.RegisterView" label="LabelNotFound"/>
 <page content="org.eclipse.cdt.debug.ui.SignalsView" label="LabelNotFound"/>
 <page content="org.eclipse.debug.ui.ModuleView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
 <part id="1"/>
 </presentation>
 </folder>
@@ -461,102 +446,10 @@
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/JavaII_Week1/res/layout/activity_main.xml"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/JavaII_Week1/src/com/dannis/javaii_week1/SubScreen.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/JavaII_Week1/res/layout/activity_subscreen.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/JavaII_Week1/res/layout/activity_main.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/JavaII_Week1/res/layout/activity_subscreen.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/JavaII_Week1/src/com/dannis/javaii_week1/SubScreen.java"/>
 </editors>
-<item historyLabel="MainActivity.java" index="0">
-<position info="not_deleted" x="454" y="1015"/>
-</item>
-<item historyLabel="SubScreen.java" index="2">
-<position info="not_deleted" x="1209" y="0"/>
-</item>
-<item historyLabel="activity_main.xml" index="1"/>
-<item historyLabel="SubScreen.java" index="2">
-<position info="not_deleted" x="1209" y="0"/>
-</item>
-<item historyLabel="MainActivity.java" index="0">
-<position info="not_deleted" x="454" y="1015"/>
-</item>
-<item historyLabel="SubScreen.java" index="2">
-<position info="not_deleted" x="1135" y="0"/>
-</item>
-<item historyLabel="activity_main.xml" index="1"/>
-<item historyLabel="MainActivity.java" index="0">
-<position info="not_deleted" x="454" y="1015"/>
-</item>
-<item historyLabel="activity_main.xml" index="1"/>
-<item historyLabel="activity_subscreen.xml" index="3"/>
-<item historyLabel="MainActivity.java" index="0">
-<position info="not_deleted" x="579" y="0"/>
-</item>
-<item historyLabel="SubScreen.java" index="2">
-<position info="not_deleted" x="1135" y="0"/>
-</item>
-<item historyLabel="MainActivity.java" index="0">
-<position info="not_deleted" x="579" y="0"/>
-</item>
-<item historyLabel="SubScreen.java" index="2">
-<position info="not_deleted" x="350" y="18"/>
-</item>
-<item historyLabel="MainActivity.java" index="0">
-<position info="not_deleted" x="579" y="0"/>
-</item>
-<item historyLabel="SubScreen.java" index="2">
-<position info="not_deleted" x="628" y="195"/>
-</item>
-<item historyLabel="MainActivity.java" index="0">
-<position info="not_deleted" x="454" y="22"/>
-</item>
-<item historyLabel="SubScreen.java" index="2">
-<position info="not_deleted" x="1283" y="0"/>
-</item>
-<item historyLabel="MainActivity.java" index="0">
-<position info="not_deleted" x="900" y="0"/>
-</item>
-<item historyLabel="SubScreen.java" index="2">
-<position info="not_deleted" x="1426" y="0"/>
-</item>
-<item historyLabel="MainActivity.java" index="0">
-<position info="not_deleted" x="895" y="0"/>
-</item>
-<item historyLabel="SubScreen.java" index="2">
-<position info="not_deleted" x="1378" y="1"/>
-</item>
-<item historyLabel="MainActivity.java" index="0">
-<position info="not_deleted" x="866" y="0"/>
-</item>
-<item historyLabel="SubScreen.java" index="2">
-<position info="not_deleted" x="1251" y="0"/>
-</item>
-<item historyLabel="MainActivity.java" index="0">
-<position info="not_deleted" x="866" y="0"/>
-</item>
-<item historyLabel="activity_subscreen.xml" index="3"/>
-<item historyLabel="SubScreen.java" index="2">
-<position info="not_deleted" x="1251" y="0"/>
-</item>
-<item historyLabel="MainActivity.java" index="0">
-<position info="not_deleted" x="866" y="0"/>
-</item>
-<item historyLabel="SubScreen.java" index="2">
-<position info="not_deleted" x="1251" y="0"/>
-</item>
-<item historyLabel="MainActivity.java" index="0">
-<position info="not_deleted" x="866" y="0"/>
-</item>
-<item historyLabel="SubScreen.java" index="2">
-<position info="not_deleted" x="1435" y="0"/>
-</item>
-<item historyLabel="MainActivity.java" index="0">
-<position info="not_deleted" x="511" y="0"/>
-</item>
-<item historyLabel="SubScreen.java" index="2">
-<position info="not_deleted" x="1435" y="0"/>
-</item>
-<item historyLabel="activity_main.xml" index="1"/>
-<item historyLabel="activity_subscreen.xml" index="3"/>
-<item historyLabel="SubScreen.java" index="2">
-<position info="not_deleted" x="885" y="0"/>
-</item>
-<item historyLabel="activity_main.xml" index="1"/>
 <item historyLabel="SubScreen.java" index="2">
 <position info="not_deleted" x="885" y="0"/>
 </item>
@@ -583,8 +476,85 @@
 <item historyLabel="activity_main.xml" index="1"/>
 <item historyLabel="activity_subscreen.xml" index="3"/>
 <item historyLabel="activity_main.xml" index="1"/>
-<item active="true" historyLabel="MainActivity.java" index="0">
+<item historyLabel="MainActivity.java" index="0">
 <position info="not_deleted" x="903" y="55"/>
+</item>
+<item historyLabel="activity_main.xml" index="4"/>
+<item historyLabel="activity_subscreen.xml" index="5"/>
+<item historyLabel="activity_main.xml" index="4"/>
+<item historyLabel="activity_subscreen.xml" index="5"/>
+<item historyLabel="MainActivity.java" index="0">
+<position info="not_deleted" x="785" y="0"/>
+</item>
+<item historyLabel="activity_main.xml" index="4"/>
+<item historyLabel="activity_subscreen.xml" index="5"/>
+<item historyLabel="activity_main.xml" index="4"/>
+<item historyLabel="activity_subscreen.xml" index="5"/>
+<item historyLabel="MainActivity.java" index="0">
+<position info="not_deleted" x="785" y="0"/>
+</item>
+<item historyLabel="SubScreen.java" index="6">
+<position info="not_deleted" x="973" y="0"/>
+</item>
+<item historyLabel="MainActivity.java" index="0">
+<position info="not_deleted" x="1995" y="0"/>
+</item>
+<item historyLabel="activity_subscreen.xml" index="5"/>
+<item historyLabel="SubScreen.java" index="6">
+<position info="not_deleted" x="1164" y="0"/>
+</item>
+<item historyLabel="activity_main.xml" index="4"/>
+<item historyLabel="MainActivity.java" index="0">
+<position info="not_deleted" x="617" y="0"/>
+</item>
+<item historyLabel="activity_main.xml" index="4"/>
+<item historyLabel="MainActivity.java" index="0">
+<position info="not_deleted" x="965" y="0"/>
+</item>
+<item historyLabel="activity_main.xml" index="4"/>
+<item historyLabel="MainActivity.java" index="0">
+<position/>
+</item>
+<item historyLabel="activity_main.xml" index="4"/>
+<item historyLabel="MainActivity.java" index="0">
+<position/>
+</item>
+<item historyLabel="MainActivity.java" index="0">
+<position info="not_deleted" x="1276" y="0"/>
+</item>
+<item historyLabel="MainActivity.java" index="0">
+<position info="not_deleted" x="1457" y="0"/>
+</item>
+<item historyLabel="activity_main.xml" index="4"/>
+<item historyLabel="MainActivity.java" index="0">
+<position/>
+</item>
+<item historyLabel="activity_main.xml" index="4"/>
+<item historyLabel="MainActivity.java" index="0">
+<position/>
+</item>
+<item historyLabel="MainActivity.java" index="0">
+<position info="not_deleted" x="1227" y="0"/>
+</item>
+<item historyLabel="MainActivity.java" index="0">
+<position info="not_deleted" x="1232" y="0"/>
+</item>
+<item historyLabel="activity_main.xml" index="4"/>
+<item historyLabel="MainActivity.java" index="0">
+<position info="not_deleted" x="1232" y="0"/>
+</item>
+<item historyLabel="SubScreen.java" index="6">
+<position info="not_deleted" x="887" y="8"/>
+</item>
+<item historyLabel="activity_main.xml" index="4"/>
+<item historyLabel="MainActivity.java" index="0">
+<position info="not_deleted" x="1711" y="0"/>
+</item>
+<item historyLabel="SubScreen.java" index="6">
+<position info="not_deleted" x="1505" y="12"/>
+</item>
+<item active="true" historyLabel="MainActivity.java" index="0">
+<position info="not_deleted" x="1711" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -611,6 +581,9 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.systemExternalEditor" name="ic_launcher.png" tooltip="JavaII_Week1/res/drawable-hdpi/ic_launcher.png">
+<persistable path="/JavaII_Week1/res/drawable-hdpi/ic_launcher.png"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="activity_subscreen.xml" tooltip="JavaII_Week1/res/layout/activity_subscreen.xml">
 <persistable path="/JavaII_Week1/res/layout/activity_subscreen.xml"/>
 </file>
