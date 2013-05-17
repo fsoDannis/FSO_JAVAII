@@ -14,13 +14,16 @@ public final class R {
         public static final int ic_launcher=0x7f020000;
     }
     public static final class id {
-        public static final int displayDetail=0x7f070002;
+        public static final int displayDetail=0x7f070003;
         public static final int displayList=0x7f070000;
-        public static final int listofURLs=0x7f070001;
+        public static final int listofURLs=0x7f070002;
+        public static final int pageInfo=0x7f070001;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;
-        public static final int list_view=0x7f030001;
+        public static final int detail_view=0x7f030001;
+        public static final int list_view=0x7f030002;
+        public static final int url_list=0x7f030003;
     }
     public static final class menu {
         public static final int activity_main=0x7f060000;
