@@ -7,4 +7,6 @@
 <fullyQualifiedTypeName name="android.widget.ImageView"/>
 <fullyQualifiedTypeName name="android.net.Uri"/>
 <fullyQualifiedTypeName name="android.app.Fragment"/>
+<fullyQualifiedTypeName name="com.dannis.javaii_week1.R.layout"/>
+<fullyQualifiedTypeName name="android.content.DialogInterface.OnClickListener"/>
 </qualifiedTypeNameHistroy>
