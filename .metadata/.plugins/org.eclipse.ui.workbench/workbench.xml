@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="33" version="2.0">
+<workbench progressCount="34" version="2.0">
 <workbenchAdvisor/>
 <window height="768" width="1415" x="1" y="91">
 <fastViewData fastViewLocation="1024"/>
@@ -41,6 +41,16 @@
 <part id="2"/>
 <part id="3"/>
 <part id="4"/>
+<part id="5"/>
+<part id="6"/>
+<part id="7"/>
+<part id="8"/>
+<part id="9"/>
+<part id="10"/>
+<part id="11"/>
+<part id="12"/>
+<part id="13"/>
+<part id="14"/>
 </presentation>
 </folder>
 </info>
@@ -52,7 +62,7 @@
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/JavaII_Week2/src/com/dannis/javaii_week1/MainActivityFragmentNew.java"/>
 <editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1319" selectionTopPixel="461"/>
 </editor>
-<editor activePart="true" focus="true" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="mainnew.xml" partName="mainnew.xml" path="/Users/Dannis/Documents/FSO_JAVAII/JavaII_Week2/res/layout/mainnew.xml" title="mainnew.xml" tooltip="JavaII_Week2/res/layout/mainnew.xml" workbook="DefaultEditorWorkbook">
+<editor id="com.android.ide.eclipse.editors.CommonXmlEditor" name="mainnew.xml" partName="mainnew.xml" path="/Users/Dannis/Documents/FSO_JAVAII/JavaII_Week2/res/layout/mainnew.xml" title="mainnew.xml" tooltip="JavaII_Week2/res/layout/mainnew.xml" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/JavaII_Week2/res/layout/mainnew.xml"/>
 </editor>
 <editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MainActivity.java" partName="MainActivity.java" path="/Users/Dannis/Documents/FSO_JAVAII/JavaII_Week2/src/com/dannis/javaii_week1/MainActivity.java" title="MainActivity.java" tooltip="JavaII_Week2/src/com/dannis/javaii_week1/MainActivity.java" workbook="DefaultEditorWorkbook">
@@ -62,6 +72,39 @@
 <editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SubScreen.java" partName="SubScreen.java" path="/Users/Dannis/Documents/FSO_JAVAII/JavaII_Week2/src/com/dannis/javaii_week1/SubScreen.java" title="SubScreen.java" tooltip="JavaII_Week2/src/com/dannis/javaii_week1/SubScreen.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/JavaII_Week2/src/com/dannis/javaii_week1/SubScreen.java"/>
 <editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="440" selectionTopPixel="0"/>
+</editor>
+<editor id="com.android.ide.eclipse.editors.CommonXmlEditor" name="activity_main.xml" partName="activity_main.xml" path="/Users/Dannis/Documents/FSO_JAVAII/JavaII_Week2_OnlineTut/res/layout/activity_main.xml" title="activity_main.xml" tooltip="JavaII_Week2_OnlineTut/res/layout/activity_main.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/JavaII_Week2_OnlineTut/res/layout/activity_main.xml"/>
+</editor>
+<editor id="com.android.ide.eclipse.editors.manifest.ManifestEditor" name="AndroidManifest.xml" partName="JavaII_Week2_OnlineTut Manifest" path="/Users/Dannis/Documents/FSO_JAVAII/JavaII_Week2_OnlineTut/AndroidManifest.xml" title="JavaII_Week2_OnlineTut Manifest" tooltip="JavaII_Week2_OnlineTut/AndroidManifest.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/JavaII_Week2_OnlineTut/AndroidManifest.xml"/>
+</editor>
+<editor id="com.android.ide.eclipse.editors.CommonXmlEditor" name="strings.xml" partName="strings.xml" path="/Users/Dannis/Documents/FSO_JAVAII/JavaII_Week2_OnlineTut/res/values/strings.xml" title="strings.xml" tooltip="JavaII_Week2_OnlineTut/res/values/strings.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/JavaII_Week2_OnlineTut/res/values/strings.xml"/>
+</editor>
+<editor activePart="true" focus="true" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="activity_main.xml" partName="activity_main.xml" path="/Users/Dannis/Documents/FSO_JAVAII/JavaII_Week2_OnlineTut/res/menu/activity_main.xml" title="activity_main.xml" tooltip="JavaII_Week2_OnlineTut/res/menu/activity_main.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/JavaII_Week2_OnlineTut/res/menu/activity_main.xml"/>
+</editor>
+<editor id="com.android.ide.eclipse.editors.CommonXmlEditor" name="list_view.xml" partName="list_view.xml" path="/Users/Dannis/Documents/FSO_JAVAII/JavaII_Week2_OnlineTut/res/layout/list_view.xml" title="list_view.xml" tooltip="JavaII_Week2_OnlineTut/res/layout/list_view.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/JavaII_Week2_OnlineTut/res/layout/list_view.xml"/>
+</editor>
+<editor id="com.android.ide.eclipse.editors.CommonXmlEditor" name="url_list.xml" partName="url_list.xml" path="/Users/Dannis/Documents/FSO_JAVAII/JavaII_Week2_OnlineTut/res/layout/url_list.xml" title="url_list.xml" tooltip="JavaII_Week2_OnlineTut/res/layout/url_list.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/JavaII_Week2_OnlineTut/res/layout/url_list.xml"/>
+</editor>
+<editor id="com.android.ide.eclipse.editors.CommonXmlEditor" name="detail_view.xml" partName="detail_view.xml" path="/Users/Dannis/Documents/FSO_JAVAII/JavaII_Week2_OnlineTut/res/layout/detail_view.xml" title="detail_view.xml" tooltip="JavaII_Week2_OnlineTut/res/layout/detail_view.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/JavaII_Week2_OnlineTut/res/layout/detail_view.xml"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="DetailFragment.java" partName="DetailFragment.java" path="/Users/Dannis/Documents/FSO_JAVAII/JavaII_Week2_OnlineTut/src/com/example/javaii_week2_onlinetut/DetailFragment.java" title="DetailFragment.java" tooltip="JavaII_Week2_OnlineTut/src/com/example/javaii_week2_onlinetut/DetailFragment.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/JavaII_Week2_OnlineTut/src/com/example/javaii_week2_onlinetut/DetailFragment.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="948" selectionTopPixel="555"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ListFragment.java" partName="ListFragment.java" path="/Users/Dannis/Documents/FSO_JAVAII/JavaII_Week2_OnlineTut/src/com/example/javaii_week2_onlinetut/ListFragment.java" title="ListFragment.java" tooltip="JavaII_Week2_OnlineTut/src/com/example/javaii_week2_onlinetut/ListFragment.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/JavaII_Week2_OnlineTut/src/com/example/javaii_week2_onlinetut/ListFragment.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="206" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="AndroidFragmentActivity.java" partName="AndroidFragmentActivity.java" path="/Users/Dannis/Documents/FSO_JAVAII/JavaII_Week2_OnlineTut/src/com/example/javaii_week2_onlinetut/AndroidFragmentActivity.java" title="AndroidFragmentActivity.java" tooltip="JavaII_Week2_OnlineTut/src/com/example/javaii_week2_onlinetut/AndroidFragmentActivity.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/JavaII_Week2_OnlineTut/src/com/example/javaii_week2_onlinetut/AndroidFragmentActivity.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="367" selectionTopPixel="0"/>
 </editor>
 </editors>
 <views>
@@ -97,8 +140,7 @@
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
 <expanded>
-<category IMemento.internal.id="Warnings (1 item)"/>
-<category IMemento.internal.id="Errors"/>
+<category IMemento.internal.id="Warnings (9 items)"/>
 </expanded>
 <columnWidths org.eclipse.ui.ide.locationField="90" org.eclipse.ui.ide.markerType="90" org.eclipse.ui.ide.pathField="120" org.eclipse.ui.ide.resourceField="90" org.eclipse.ui.ide.severityAndDescriptionField="536"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
@@ -120,7 +162,7 @@
 <viewState/>
 </view>
 </views>
-<perspectives activePart="com.android.ide.eclipse.editors.CommonXmlEditor" activePerspective="org.eclipse.jdt.ui.JavaPerspective">
+<perspectives activePart="org.eclipse.ui.navigator.ProjectExplorer" activePerspective="org.eclipse.jdt.ui.JavaPerspective">
 <perspective editorAreaTrimState="2" editorAreaVisible="0" fixed="0" version="0.016">
 <descriptor class="com.android.ide.eclipse.ddms.Perspective" id="com.android.ide.eclipse.ddms.Perspective" label="DDMS"/>
 <alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
@@ -437,97 +479,19 @@
 <editors>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/JavaII_Week2/res/layout/mainnew.xml"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/JavaII_Week2/src/com/dannis/javaii_week1/MainActivityFragmentNew.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/JavaII_Week2/res/values/strings.xml"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/JavaII_Week2/src/com/dannis/javaii_week1/MainActivity.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.manifest.ManifestEditor" path="/JavaII_Week2/AndroidManifest.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/JavaII_Week2/src/com/dannis/javaii_week1/SubScreen.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/JavaII_Week2_OnlineTut/res/layout/activity_main.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.manifest.ManifestEditor" path="/JavaII_Week2_OnlineTut/AndroidManifest.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/JavaII_Week2_OnlineTut/res/values/strings.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/JavaII_Week2_OnlineTut/res/menu/activity_main.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="" path="/JavaII_Week2_OnlineTut/res/menu/activity_main.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/JavaII_Week2_OnlineTut/res/layout/list_view.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/JavaII_Week2_OnlineTut/res/layout/url_list.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/JavaII_Week2_OnlineTut/res/layout/detail_view.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/JavaII_Week2_OnlineTut/src/com/example/javaii_week2_onlinetut/DetailFragment.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/JavaII_Week2_OnlineTut/src/com/example/javaii_week2_onlinetut/ListFragment.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/JavaII_Week2_OnlineTut/src/com/example/javaii_week2_onlinetut/AndroidFragmentActivity.java"/>
 </editors>
-<item historyLabel="MainActivityFragmentNew.java" index="1">
-<position info="not_deleted" x="705" y="0"/>
-</item>
-<item historyLabel="strings.xml" index="2"/>
-<item historyLabel="MainActivityFragmentNew.java" index="1">
-<position info="not_deleted" x="705" y="0"/>
-</item>
-<item historyLabel="MainActivity.java" index="3">
-<position info="not_deleted" x="1073" y="0"/>
-</item>
-<item historyLabel="MainActivityFragmentNew.java" index="1">
-<position info="not_deleted" x="705" y="0"/>
-</item>
-<item historyLabel="JavaII_Week2 Manifest" index="4"/>
-<item historyLabel="MainActivityFragmentNew.java" index="1">
-<position info="not_deleted" x="722" y="0"/>
-</item>
-<item historyLabel="MainActivity.java" index="3">
-<position info="not_deleted" x="587" y="117"/>
-</item>
-<item historyLabel="MainActivityFragmentNew.java" index="1">
-<position info="not_deleted" x="694" y="0"/>
-</item>
-<item historyLabel="MainActivity.java" index="3">
-<position info="not_deleted" x="1036" y="272"/>
-</item>
-<item historyLabel="MainActivityFragmentNew.java" index="1">
-<position info="not_deleted" x="1359" y="0"/>
-</item>
-<item historyLabel="MainActivity.java" index="3">
-<position info="not_deleted" x="1399" y="334"/>
-</item>
-<item historyLabel="MainActivityFragmentNew.java" index="1">
-<position/>
-</item>
-<item historyLabel="MainActivity.java" index="3">
-<position info="not_deleted" x="1394" y="0"/>
-</item>
-<item historyLabel="MainActivityFragmentNew.java" index="1">
-<position info="not_deleted" x="1230" y="0"/>
-</item>
-<item historyLabel="MainActivity.java" index="3">
-<position info="not_deleted" x="1398" y="0"/>
-</item>
-<item historyLabel="MainActivityFragmentNew.java" index="1">
-<position info="not_deleted" x="1802" y="0"/>
-</item>
-<item historyLabel="MainActivityFragmentNew.java" index="1">
-<position info="not_deleted" x="1292" y="0"/>
-</item>
-<item historyLabel="MainActivityFragmentNew.java" index="1">
-<position info="not_deleted" x="1044" y="55"/>
-</item>
-<item historyLabel="MainActivityFragmentNew.java" index="1">
-<position info="not_deleted" x="532" y="15"/>
-</item>
-<item historyLabel="MainActivityFragmentNew.java" index="1">
-<position info="not_deleted" x="480" y="23"/>
-</item>
-<item historyLabel="MainActivity.java" index="3">
-<position info="not_deleted" x="1934" y="345"/>
-</item>
-<item historyLabel="MainActivityFragmentNew.java" index="1">
-<position info="not_deleted" x="1655" y="135"/>
-</item>
-<item historyLabel="MainActivity.java" index="3">
-<position info="not_deleted" x="1737" y="1180"/>
-</item>
-<item historyLabel="MainActivityFragmentNew.java" index="1">
-<position info="not_deleted" x="961" y="0"/>
-</item>
-<item historyLabel="MainActivity.java" index="3">
-<position info="not_deleted" x="1737" y="1180"/>
-</item>
-<item historyLabel="SubScreen.java" index="5">
-<position info="not_deleted" x="498" y="0"/>
-</item>
-<item historyLabel="MainActivityFragmentNew.java" index="1">
-<position info="not_deleted" x="1156" y="0"/>
-</item>
-<item historyLabel="MainActivity.java" index="3">
-<position info="not_deleted" x="1737" y="1180"/>
-</item>
-<item historyLabel="SubScreen.java" index="5">
-<position info="not_deleted" x="440" y="0"/>
-</item>
 <item historyLabel="MainActivityFragmentNew.java" index="1">
 <position info="not_deleted" x="1156" y="0"/>
 </item>
@@ -549,31 +513,31 @@
 <item historyLabel="MainActivityFragmentNew.java" index="1">
 <position info="not_deleted" x="1344" y="0"/>
 </item>
-<item historyLabel="MainActivity.java" index="3">
+<item historyLabel="MainActivity.java" index="2">
 <position info="not_deleted" x="719" y="0"/>
 </item>
 <item historyLabel="MainActivityFragmentNew.java" index="1">
 <position info="not_deleted" x="932" y="0"/>
 </item>
-<item historyLabel="MainActivity.java" index="3">
+<item historyLabel="MainActivity.java" index="2">
 <position info="not_deleted" x="719" y="0"/>
 </item>
-<item historyLabel="MainActivity.java" index="3">
+<item historyLabel="MainActivity.java" index="2">
 <position info="not_deleted" x="2322" y="0"/>
 </item>
-<item historyLabel="MainActivity.java" index="3">
+<item historyLabel="MainActivity.java" index="2">
 <position info="not_deleted" x="2472" y="0"/>
 </item>
-<item historyLabel="MainActivity.java" index="3">
+<item historyLabel="MainActivity.java" index="2">
 <position info="not_deleted" x="2439" y="4"/>
 </item>
-<item historyLabel="MainActivity.java" index="3">
+<item historyLabel="MainActivity.java" index="2">
 <position info="not_deleted" x="2390" y="0"/>
 </item>
-<item historyLabel="MainActivity.java" index="3">
+<item historyLabel="MainActivity.java" index="2">
 <position info="not_deleted" x="2439" y="4"/>
 </item>
-<item historyLabel="MainActivity.java" index="3">
+<item historyLabel="MainActivity.java" index="2">
 <position info="not_deleted" x="1249" y="0"/>
 </item>
 <item historyLabel="MainActivityFragmentNew.java" index="1">
@@ -583,20 +547,77 @@
 <item historyLabel="MainActivityFragmentNew.java" index="1">
 <position info="not_deleted" x="1319" y="0"/>
 </item>
-<item active="true" historyLabel="mainnew.xml" index="0"/>
+<item historyLabel="mainnew.xml" index="0"/>
+<item historyLabel="activity_main.xml" index="3"/>
+<item historyLabel="JavaII_Week2_OnlineTut Manifest" index="4"/>
+<item historyLabel="strings.xml" index="5"/>
+<item historyLabel="activity_main.xml" index="6"/>
+<item historyLabel="activity_main.xml" index="3"/>
+<item historyLabel="activity_main.xml" index="6">
+<position info="not_deleted" x="640" y="0"/>
+</item>
+<item historyLabel="activity_main.xml" index="7">
+<position info="not_deleted" x="754" y="0"/>
+</item>
+<item historyLabel="activity_main.xml" index="7">
+<position/>
+</item>
+<item historyLabel="activity_main.xml" index="7">
+<position info="not_deleted" x="754" y="0"/>
+</item>
+<item historyLabel="JavaII_Week2_OnlineTut Manifest" index="4"/>
+<item historyLabel="strings.xml" index="5"/>
+<item historyLabel="list_view.xml" index="8"/>
+<item historyLabel="url_list.xml" index="9"/>
+<item historyLabel="detail_view.xml" index="10"/>
+<item historyLabel="url_list.xml" index="9"/>
+<item historyLabel="JavaII_Week2_OnlineTut Manifest" index="4"/>
+<item historyLabel="DetailFragment.java" index="11">
+<position info="not_deleted" x="336" y="0"/>
+</item>
+<item historyLabel="ListFragment.java" index="12">
+<position info="not_deleted" x="206" y="0"/>
+</item>
+<item historyLabel="AndroidFragmentActivity.java" index="13">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="AndroidFragmentActivity.java" index="13">
+<position info="not_deleted" x="654" y="0"/>
+</item>
+<item historyLabel="AndroidFragmentActivity.java" index="13">
+<position info="not_deleted" x="45" y="0"/>
+</item>
+<item historyLabel="AndroidFragmentActivity.java" index="13">
+<position info="not_deleted" x="136" y="0"/>
+</item>
+<item historyLabel="DetailFragment.java" index="11">
+<position info="not_deleted" x="336" y="0"/>
+</item>
+<item historyLabel="DetailFragment.java" index="11">
+<position info="not_deleted" x="948" y="0"/>
+</item>
+<item historyLabel="JavaII_Week2_OnlineTut Manifest" index="4"/>
+<item historyLabel="AndroidFragmentActivity.java" index="13">
+<position info="not_deleted" x="367" y="0"/>
+</item>
+<item historyLabel="activity_main.xml" index="6">
+<position info="not_deleted" x="755" y="0"/>
+</item>
+<item historyLabel="activity_main.xml" index="7">
+<position info="not_deleted" x="754" y="0"/>
+</item>
+<item historyLabel="activity_main.xml" index="7">
+<position info="not_deleted" x="326" y="0"/>
+</item>
+<item active="true" historyLabel="activity_main.xml" index="7">
+<position info="not_deleted" x="754" y="0"/>
+</item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
 </page>
 <workbenchWindowAdvisor/>
 <actionBarAdvisor/>
 <trimLayout>
-<trimArea IMemento.internal.id="16384">
-<trimItem IMemento.internal.id="left"/>
-</trimArea>
-<trimArea IMemento.internal.id="131072">
-<trimItem IMemento.internal.id="bottom"/>
-<trimItem IMemento.internal.id="right"/>
-</trimArea>
 <trimArea IMemento.internal.id="128">
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
 </trimArea>
@@ -609,6 +630,36 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="AndroidFragmentActivity.java" tooltip="JavaII_Week2_OnlineTut/src/com/example/javaii_week2_onlinetut/AndroidFragmentActivity.java">
+<persistable path="/JavaII_Week2_OnlineTut/src/com/example/javaii_week2_onlinetut/AndroidFragmentActivity.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ListFragment.java" tooltip="JavaII_Week2_OnlineTut/src/com/example/javaii_week2_onlinetut/ListFragment.java">
+<persistable path="/JavaII_Week2_OnlineTut/src/com/example/javaii_week2_onlinetut/ListFragment.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="DetailFragment.java" tooltip="JavaII_Week2_OnlineTut/src/com/example/javaii_week2_onlinetut/DetailFragment.java">
+<persistable path="/JavaII_Week2_OnlineTut/src/com/example/javaii_week2_onlinetut/DetailFragment.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="detail_view.xml" tooltip="JavaII_Week2_OnlineTut/res/layout/detail_view.xml">
+<persistable path="/JavaII_Week2_OnlineTut/res/layout/detail_view.xml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="url_list.xml" tooltip="JavaII_Week2_OnlineTut/res/layout/url_list.xml">
+<persistable path="/JavaII_Week2_OnlineTut/res/layout/url_list.xml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="list_view.xml" tooltip="JavaII_Week2_OnlineTut/res/layout/list_view.xml">
+<persistable path="/JavaII_Week2_OnlineTut/res/layout/list_view.xml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="activity_main.xml" tooltip="JavaII_Week2_OnlineTut/res/menu/activity_main.xml">
+<persistable path="/JavaII_Week2_OnlineTut/res/menu/activity_main.xml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="strings.xml" tooltip="JavaII_Week2_OnlineTut/res/values/strings.xml">
+<persistable path="/JavaII_Week2_OnlineTut/res/values/strings.xml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.manifest.ManifestEditor" name="AndroidManifest.xml" tooltip="JavaII_Week2_OnlineTut/AndroidManifest.xml">
+<persistable path="/JavaII_Week2_OnlineTut/AndroidManifest.xml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="activity_main.xml" tooltip="JavaII_Week2_OnlineTut/res/layout/activity_main.xml">
+<persistable path="/JavaII_Week2_OnlineTut/res/layout/activity_main.xml"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SubScreen.java" tooltip="JavaII_Week2/src/com/dannis/javaii_week1/SubScreen.java">
 <persistable path="/JavaII_Week2/src/com/dannis/javaii_week1/SubScreen.java"/>
 </file>
@@ -623,36 +674,6 @@
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MainActivityFragmentNew.java" tooltip="JavaII_Week2/src/com/dannis/javaii_week1/MainActivityFragmentNew.java">
 <persistable path="/JavaII_Week2/src/com/dannis/javaii_week1/MainActivityFragmentNew.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MainActivityFragment.java" tooltip="JavaII_Week2/src/com/dannis/javaii_week1/MainActivityFragment.java">
-<persistable path="/JavaII_Week2/src/com/dannis/javaii_week1/MainActivityFragment.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MainActivityFragment2.java" tooltip="JavaII_Week2/src/com/dannis/javaii_week1/MainActivityFragment2.java">
-<persistable path="/JavaII_Week2/src/com/dannis/javaii_week1/MainActivityFragment2.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="main.xml" tooltip="JavaII_Week2/res/layout/main.xml">
-<persistable path="/JavaII_Week2/res/layout/main.xml"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="strings.xml" tooltip="JavaII_Week2/res/values/strings.xml">
-<persistable path="/JavaII_Week2/res/values/strings.xml"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="activity_main.xml" tooltip="JavaII_Week2/res/layout/activity_main.xml">
-<persistable path="/JavaII_Week2/res/layout/activity_main.xml"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.systemExternalEditor" name="ic_launcher.png" tooltip="JavaII_Week1/res/drawable-hdpi/ic_launcher.png">
-<persistable path="/JavaII_Week1/res/drawable-hdpi/ic_launcher.png"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="activity_subscreen.xml" tooltip="JavaII_Week1/res/layout/activity_subscreen.xml">
-<persistable path="/JavaII_Week1/res/layout/activity_subscreen.xml"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.manifest.ManifestEditor" name="AndroidManifest.xml" tooltip="JavaII_Week1/AndroidManifest.xml">
-<persistable path="/JavaII_Week1/AndroidManifest.xml"/>
-</file>
-<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="Instrumentation.class" tooltip="android.app.Instrumentation">
-<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=JavaII_Week1/\/Users\/Dannis\/Downloads\/adt-bundle-mac-x86_64\/sdk\/platforms\/android-17\/android.jar&lt;android.app(Instrumentation.class"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="R.java" tooltip="JavaII_Week1/gen/com/dannis/javaii_week1/R.java">
-<persistable path="/JavaII_Week1/gen/com/dannis/javaii_week1/R.java"/>
 </file>
 </mruList>
 </workbench>

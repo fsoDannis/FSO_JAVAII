@@ -9,4 +9,5 @@
 <fullyQualifiedTypeName name="android.app.Fragment"/>
 <fullyQualifiedTypeName name="com.dannis.javaii_week1.R.layout"/>
 <fullyQualifiedTypeName name="android.content.DialogInterface.OnClickListener"/>
+<fullyQualifiedTypeName name="com.example.javaii_week2_onlinetut.ListFragment.OnURLSelectedListener"/>
 </qualifiedTypeNameHistroy>
