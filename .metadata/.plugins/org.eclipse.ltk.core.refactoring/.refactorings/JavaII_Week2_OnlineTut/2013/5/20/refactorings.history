@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;JavaII_Week2_OnlineTut/res/layount-land&apos; to &apos;layout-land&apos;" description="Rename resource &apos;layount-land&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="res/layount-land" name="layout-land" stamp="1368757575747" updateReferences="true"/>
+</session>
