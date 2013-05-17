@@ -33,7 +33,6 @@ public class MainActivity extends Activity {
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.mainnew);
-		loadSecondActivity();
 		
 ////////////////// Moving out of here to the Fragment View \\\\\\\\\\\\\\\\\\\\\\\
 //backMsg = (TextView) findViewById(R.id.textView3);
@@ -70,17 +69,6 @@ public class MainActivity extends Activity {
 //		}		
 //	}
 //	
-	
-public void loadSecondActivity(){
-	Intent intObj = new Intent(MainActivity.this,
-	SubScreen.class);
-String name = null;
-intObj.putExtra("USERNAME", name);
-startActivity(intObj);
-}	
-
-	
-	
 //	//This function tells the button to call out to the web with the given URL
 //	private void addListenerOnButton() {
 //		button2 = (Button) findViewById(R.id.buttonSearch);

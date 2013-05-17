@@ -37,7 +37,7 @@ public class MainActivityFragmentNew extends Fragment implements OnClickListener
 			Bundle savedInstanceState) {
 		// TODO Auto-generated method stub
 		
-		View view = inflater.inflate(R.layout.activity_main, container);
+		View view = inflater.inflate(R.layout.mainnew, container);
 		
 		
 		//backMsg = (TextView) view.findViewById(R.id.textView3);
@@ -47,7 +47,7 @@ public class MainActivityFragmentNew extends Fragment implements OnClickListener
 		btnCtlr.setOnClickListener((android.view.View.OnClickListener) this);
 
 		//addListenerOnButton();
-		//getSubScreenInfo();	
+		//getSubScreenInfo();
 		return view;
 	}
 
