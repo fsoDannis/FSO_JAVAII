@@ -6,8 +6,11 @@
 <fullyQualifiedTypeName name="android.content.Intent"/>
 <fullyQualifiedTypeName name="android.widget.ImageView"/>
 <fullyQualifiedTypeName name="android.net.Uri"/>
-<fullyQualifiedTypeName name="android.app.Fragment"/>
 <fullyQualifiedTypeName name="com.dannis.javaii_week1.R.layout"/>
 <fullyQualifiedTypeName name="android.content.DialogInterface.OnClickListener"/>
 <fullyQualifiedTypeName name="com.example.javaii_week2_onlinetut.ListFragment.OnURLSelectedListener"/>
+<fullyQualifiedTypeName name="com.example.transistioningfragments.R.layout"/>
+<fullyQualifiedTypeName name="android.view.ViewGroup"/>
+<fullyQualifiedTypeName name="android.os.Bundle"/>
+<fullyQualifiedTypeName name="android.app.Fragment"/>
 </qualifiedTypeNameHistroy>
